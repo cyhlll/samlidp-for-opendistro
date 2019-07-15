@@ -1,0 +1,9 @@
+version: '3'
+services:
+  testsamlidp_idp:
+    image: samlidp-for-opendistro
+    container_name: samlidp-for-opendistro
+    ports:
+    - "8080:8080"
+    - "8443:8443"
+
